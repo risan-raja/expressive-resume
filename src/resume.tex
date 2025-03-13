@@ -5,70 +5,112 @@
 
 % ----- Name + Contact Information -----
 \resumeheader[
-    firstname=John,
-    middleinitial=N,
-    lastname=Doe,
-    email=john.doe@example.com,
-    % phone=123-456-7890,
-    linkedin=johndoe,
-    github=johndoe,
-    % city=Town,
-    % state=State,
-    qrcode=./images/qr.png
+	firstname=Risan Raja,
+	% middleinitial= ,
+	% lastname=Raja,
+	email=risan.raja@icloud.com,
+	linkedin=risanraja,
+	github=risan-raja,
+	phone=963-332-6718,
+	% city=Town,
+	% state=State,
+	% qrcode=./images/qr.png
 ]
 
-\objective{A software engineering graduate with 2 years of work
-    experience at various internships seeking opportunities to develop
-    web/mobile applications for Company XYZ.}
+\objective{Seeking a Research-Focused Machine Learning Engineer position to utilize 4+ years of experience and a strong aptitude for problem-solving in developing and implementing innovative solutions within a dynamic and challenging environment.}
 
 % ----- Work Experience -----
 \section{Work Experience}
 
-\experience{Radiant Software Systems}{%
-    \role{Software Engineer}{2021 - 2024}{
-        \achievement{
+\experience{Center for Computational Brain Research, IIT Madras}{%
+	\role{ML and Computer Vision Research Intern}{2024-2025}{
+		\achievement{
+			Developed Automated Image Registration and Stacking for
+			Histological Images. Repurposed various \textbf{SOTA MRI} based
+			registration pipelines for histological images by optimzing it
+			to handle large histological images (200GB+/image).
+		}
+		\achievement{
+			Developed a novel optimzed pipeline for finding errors
+			within the annotated anatomical structures by adopting the best
+			practices from geospatial data processing.
+		}
+		\achievement{
+			\textcolor{black}{Implemented an end to end ETL pipeline using \tech{\textcolor{black}{Dask and Pytorch}}} which leveraged the
+			existing anatomical data stored in geospatial format to stream asynchronusly
+			\textbf{100K patches/s} of large histological for training the deep learning models.
+		}
+		\achievement{
+			\textcolor{black}{ Contributed to the development of \textbf{RAG based QA} system for Neuroscience based projects.}
+		}
+		\achievement{
+			\textcolor{black}{Developed automated CI/CD pipeline to integrate with the frontend using Jenkins and Docker }
+		}
+	}
 
-            Developed a mobile app in \tech{React Native} that was
-            downloaded 100k times on Google Play.
+}
+\experience{IBG Consulting}{%
+	\role{Business Analyst}{2021-2024}{
+		\achievement{
+			Worked closely with the management to develop a machine learning
+			model using \textbf{Pytorch and NIXTLA} based on the trading patterns of the commodities options and futures
+			markets to model the viability of sales/export demand in various
+			international markets for raw materials procured by the company.
+		}
+	}
+}
+\experience{Coderstrust}{%
+	\role{Digital Marketing Strategist}{2017}{
+		\achievement{
+			Strategized and executed a digital marketing campaigns in the
+			APAC region. Worked with the CMO and cofounder to develop a data
+			first approach to marketing by leveraging the data from the
+			company's LMS and CRM to develop a more targeted marketing  strategy.
+		}
+	}
+}
 
-        }
-    }
-    \role{Summer Intern}{2021}{
-        \achievement{
+\experience{Nielsen Sports}{
+	\role{Digital Analyst}{2016}{
+		\achievement{
+	Implemented a data pipeline to ingest data from multiple large
+	social media entities to seamlessly integrate with social media
+	valuation tools
+		}
+		\achievement{
+	Worked on NLP based sentiment analysis to gauge the sentiment from
+	the collected data and develop a more robust social media valuation algorithm.
+		}
+	}
 
-            Collaborated in an \tech{Agile/Scrum} team of 8 engineers to
-            deliver new features every 2 weeks.
+}
+% ----- Awards -----
+\section{Awards}
 
-        }
-    }
+\award{First Place}{PixelMind AI Hackathon}{2023}{
+	\achievement{Did some amazing stuff that really benefitted the company}
+}
+
+% ----- Education -----
+\section{Education}
+\degree{B.S. Data Science and Programming}{IIT Madras}{2024}{
+}
+\degree{BSc Information Technology}{SMU}{2018}{
 }
 
 % ----- Technical Projects -----
 \section{Technical Projects}
 
-\project{Expressive Resume}{2021-2024}{
+\project{}{2021-2024}{
 
-    \achievement{
-        Created a \tech{\LaTeX} class
-        that enables anyone to quickly
-        create a beautiful resume
-        and cover letter.
-    }
+	\achievement{
+		Created a \tech{\LaTeX} class
+		that enables anyone to quickly
+		create a beautiful resume
+		and cover letter.
+	}
 
 }
 
-% ----- Education -----
-\section{Education}
-
-\degree{B.S. Software Engineering \honors{Summa Cum Laude}}{Super Duper University}{2022}{
-    \achievement{Ranked \#15 out of 463 students}
-}
-
-% ----- Awards -----
-\section{Awards}
-
-\award{Employee of the Month}{Radiant Software Systems}{2023}{
-    \achievement{Did some amazing stuff that really benefitted the company}
-}
 
 \end{document}

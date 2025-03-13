@@ -61,7 +61,7 @@
 \RequirePackage{titlesec}
 % Section Formatting
 \titleformat{\section}
-{\color{blue}\Large\scshape\raggedright}  % Shape
+{\color{black}\Large\scshape\raggedright}  % Shape
 {}
 {0em}
 {}

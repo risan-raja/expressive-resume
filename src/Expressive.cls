@@ -50,7 +50,7 @@
 
 %% Add support for nuanced list formatting
 \RequirePackage{enumitem}
-\setlist{nosep,topsep=0pt,leftmargin=22pt}
+\setlist{nosep,topsep=0pt,leftmargin=18pt}
 
 %% Support drawing lines around experiences (\renewenvironment from https://stackoverflow.com/a/9974713/14765128)
 % \RequirePackage{framed}
@@ -61,7 +61,7 @@
 \RequirePackage{titlesec}
 % Section Formatting
 \titleformat{\section}
-{\color{black}\Large\scshape\raggedright}  % Shape
+{\color{blue}\Large\scshape\raggedright}  % Shape
 {}
 {0em}
 {}

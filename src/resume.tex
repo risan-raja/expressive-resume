@@ -33,48 +33,43 @@
 \experience{Center for Computational Brain Research, IIT Madras}{%
 	\role{ML and Computer Vision Researcher}{Jun 2024 - Mar 2025}{
 		\achievement{
-			Developed Automated Image Registration and Stacking for
+			Led the development of Automated Image Registration and Stacking for
 			histopathological Images. Repurposed various \textbf{SOTA MRI} based
 			registration pipelines for histopathological images by optimizing it
-			to handle large histopathological images (200GB+/image) using GANS
-		and VAEs improving registration Accuracy by over \textbf{70\%} and
+		to process large histopathological images (200GB+/image) using
+		\textbf{deep learning based optimization(LDDM)} to improve the registration accuracy by over \textbf{70\%} and
 		sped up annotation speed by \textbf{3x}.
 		}
 		\achievement{
-			Developed a novel optimized pipeline for finding errors
+			Formulated a novel optimized pipeline for finding errors
 			within the annotated anatomical structures by adopting the best
 		practices from geospatial data processing. Reduced the time
-		taken from 5 minutes to under 15 seconds.
+		taken from \textbf{5 minutes to under 15 seconds}.
 		}
 		\achievement{
-			\textcolor{black}{Implemented an end to end ETL pipeline using \tech{\textcolor{black}{Dask and Pytorch}}} which leveraged the
+			\textcolor{black}{Developed an end to end ETL pipeline using \tech{\textcolor{black}{Dask and Pytorch}}} which leveraged the
 			existing anatomical data stored in geospatial format to stream asynchronously
-			\textbf{100K patches/s} of large histopathological for training the
-			deep learning models(GANs and Stable Diffusion Models).
+		\textbf{100K patches/s} of large histopathological for training 
+		\textbf{GANs and Stable Diffusion networks} for image generation and segmentation.
 		}
 		\achievement{
-		\textcolor{black}{ Contributed to the development of \textbf{RAG
-		based QA} system for Neuroscience based projects by optimizing
-		the time taken by the ORM to query and interact with the
-		knownledge base. }
+		\textcolor{black}{ Augmented the development of \textbf{RAG
+		based QA} system by reducing the latency of the ORM to query and interact with the
+		knownledge base by \textbf{21\%}.}
 		}
 		\achievement{
 			\textcolor{black}{Strategized and implemented model serving using
-				in house DGX A100 cluster{8 Nodes} using \textbf{NVIDIA Triton Inference
-		Server} for the developed models. Apache Airflow was used as the
+				in house \textbf{DGX A100 cluster(5 Nodes)} using \textbf{NVIDIA Triton Inference
+		Server} for the developed models. \textbf{Apache Airflow} was used as the
 		main orchestrator.}
 		}
 		\achievement{
-			\textcolor{black}{Developed automated CI/CD pipeline to 
-			integrate with the frontend using Jenkins and Docker }
-		}
-		\achievement{
-			\textcolor{black}{Contributed in developing the in-house code
-				suggestion tool using \textbf{AST based code generation} for the
-				research team using Mistral 7B. Supplemented it with subject
+			\textcolor{black}{Assisted in developing the in-house code
+				suggestion tool using \textbf{AST based syntax generation} for the
+				research team using Mistral 70B. Supplemented it with subject
 				based knowledge graph to further enhance the code suggestion.
 				Worked with the front end team to develop the chrome based
-				plugin  for the code suggestion tool.}
+				plugin to be used in JupyterHub.}
 		}
 	}
 
@@ -91,36 +86,36 @@
 			stock by \textbf{20\%}.
 		}
 		\achievement{
-			Fine Tuned \textbf{T5} based model using PEFT to eliminate jargon within
-			the published analyst reports to make available corpus more streamlined for
+			Finetuned \textbf{T5} based model using PEFT to eliminate jargon within
+			the published analyst reports to enhance available corpus more streamlined for
 			downstream tasks improving the pipeline efficiency by approx \textbf{30\%}.
 		}
 	}
 }
-\experience{Coderstrust}{%
-	\role{Digital Marketing Strategist}{2017}{
-		% \achievement{
-		% 	Strategized and executed a digital marketing campaigns in the
-		% 	APAC region. Worked with the CMO and cofounder to develop a data
-		% 	first approach to marketing by leveraging the data from the
-		% 	company's LMS and CRM to develop a more targeted marketing  strategy.
-		% }
-	}
-}
+% \experience{Coderstrust}{%
+% 	\role{Digital Marketing Strategist}{2017}{
+% 		% \achievement{
+% 		% 	Strategized and executed a digital marketing campaigns in the
+% 		% 	APAC region. Worked with the CMO and cofounder to develop a data
+% 		% 	first approach to marketing by leveraging the data from the
+% 		% 	company's LMS and CRM to develop a more targeted marketing  strategy.
+% 		% }
+% 	}
+% }
 
-\experience{Nielsen Sports}{
-	\role{Digital Analyst}{2016}{
-		% 	\achievement{
-		% Implemented a data pipeline to ingest data from multiple large
-		% social media entities to seamlessly integrate with social media
-		% valuation tools
-		% 	}
-		% 	\achievement{
-		% Worked on NLP based sentiment analysis to gauge the sentiment from
-		% the collected data and develop a more robust social media valuation algorithm.
-		% 	}
-	}
-}
+% \experience{Nielsen Sports}{
+% 	\role{Digital Analyst}{2016}{
+% 		% 	\achievement{
+% 		% Implemented a data pipeline to ingest data from multiple large
+% 		% social media entities to seamlessly integrate with social media
+% 		% valuation tools
+% 		% 	}
+% 		% 	\achievement{
+% 		% Worked on NLP based sentiment analysis to gauge the sentiment from
+% 		% the collected data and develop a more robust social media valuation algorithm.
+% 		% 	}
+% 	}
+% }
 
 % ----- Education -----
 \section{Education}
@@ -129,7 +124,7 @@
 		TA for the course C Programming
 	}
 }
-\degree{BSc Information Technology}{SMU}{2015-2018}{
+\degree{B.Sc Information Technology}{SMU}{2015-2018}{
 }
 
 % ----- Skills -----
@@ -156,7 +151,9 @@
 \section{Awards}
 
 \award{First Place}{PixelMind AI Hackathon}{2023}{
-	\achievement{Created an AI Agent using \textbf{RL} by leveraging the MAXIM and SPLINET for automatically enhancing high-resolution photgraphy images.}
+	\achievement{Architected an AI Agent using \textbf{RL} by leveraging
+	the MAXIM and SPLINET for automatically enhancing high-resolution 
+	photography images.}
 }
 \award{Third Place}{DSA Challenge, IITM}{2023}{
 }
@@ -178,15 +175,15 @@
 \experience{Pointwise Temporal Fusion Transformer}{
 
 	\achievement{
-		Redesigned Temporal Fusion Transformer from ground up to handle
-		multi horizon prediction in non-stationary financial data. The
-		novelty is in the ability to perform like a deep time index
-		model for time series forecasting tasks.
-		Custom training loop was developed to handle the large training
-		and utilized 8 A100 GPUs to train the model in 3 days. Finally
-		outperforming the best solution published in the original kaggle
-		challenge. Rewrote the code from \textbf{Tensorflow} to \textbf{Pytorch
-			Lightning} to leverage FSDP for distributed training.
+		Revamped the Temporal Fusion Transformer from scratch to support
+		multi-horizon predictions in non-stationary financial datasets. 
+		 Its key innovation is operating as a deep time index model for
+		time series forecasting. Custom training loop was developed to 
+		ingest the large training and utilized 8 A100 GPUs to train the
+		model in 3 days. Finally outperforming the best
+		solution published in the original kaggle challenge. Converted
+		the project from \textbf{Tensorflow} to \textbf{Pytorch
+			Lightning} to leverage DDP for distributed training.
 		\href{https://github.com/risan-raja/jane_street}{\faIcon{github}}
 	}
 
@@ -195,13 +192,14 @@
 \experience{ONDC Indexing System}{
 
 	\achievement{
-		Retrained existing \textbf{JINA} LLM embedding model to handle
+		Fine tuned existing \textbf{JINA} LLM embedding model to
+		semantically index
 		indian categorical data for the ONDC project. The model was
 		optimized to handle the large scale data and was deployed using
 		Google Kubernetes Engine(GCP) and also Vertex AI endpoint using GRPC.
 		The model was also further optimized using attention
-		layer fusion to optimize for large scale data. Further also
-		created custom docker image to handle the model serving using
+		layer fusion to optimize for large scale data.Additionally,
+		created a custom Docker image for model serving using 
 		NVIDIA Triton Inference Server.
 		\href{https://docs.google.com/presentation/d/1ewra3_4lZK1NbzY-oZwZo324f43RKughmSyyBj6M20I/edit?usp=sharing}{\faIcon{link}}
 	}

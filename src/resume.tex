@@ -17,7 +17,15 @@
 	% qrcode=./images/qr.png
 ]
 
-\objective{Seeking a Research-Focused Machine Learning Engineer position to utilize 4+ years of experience and a strong aptitude for problem-solving in developing and implementing innovative solutions within a dynamic and challenging environment.}
+\section{Profile Summary}{
+  \objective{Seeking a Research-Focused Machine Learning Engineer
+	  position to utilize 4+ years of experience and a strong aptitude for
+	  problem-solving in developing and implementing innovative solutions
+	  within a dynamic and challenging environment.
+  }
+ }
+
+
 
 % ----- Work Experience -----
 \section{Work Experience}
@@ -26,29 +34,29 @@
 	\role{ML and Computer Vision Researcher}{Jun 2024 - Mar 2025}{
 		\achievement{
 			Developed Automated Image Registration and Stacking for
-			Histological Images. Repurposed various \textbf{SOTA MRI} based
-			registration pipelines for histological images by optimzing it
-		to handle large histological images (200GB+/image) using GANS
-		and VAEs.
+			histopathological Images. Repurposed various \textbf{SOTA MRI} based
+			registration pipelines for histopathological images by optimizing it
+			to handle large histopathological images (200GB+/image) using GANS
+			and VAEs.
 		}
 		\achievement{
-			Developed a novel optimzed pipeline for finding errors
+			Developed a novel optimized pipeline for finding errors
 			within the annotated anatomical structures by adopting the best
 			practices from geospatial data processing.
 		}
 		\achievement{
 			\textcolor{black}{Implemented an end to end ETL pipeline using \tech{\textcolor{black}{Dask and Pytorch}}} which leveraged the
-			existing anatomical data stored in geospatial format to stream asynchronusly
-		\textbf{100K patches/s} of large histological for training the
-		deep learning models(GANs and Stable Diffusion Models).
+			existing anatomical data stored in geospatial format to stream asynchronously
+			\textbf{100K patches/s} of large histopathological for training the
+			deep learning models(GANs and Stable Diffusion Models).
 		}
 		\achievement{
 			\textcolor{black}{ Contributed to the development of \textbf{RAG based QA} system for Neuroscience based projects.}
 		}
 		\achievement{
-		\textcolor{black}{Strategised and implemented model serving using
-		in house DGX A100 cluster using \textbf{NVIDIA Triton Inference
-		Server} for the developed models.}
+			\textcolor{black}{Strategized and implemented model serving using
+				in house DGX A100 cluster{8 Nodes} using \textbf{NVIDIA Triton Inference
+					Server} for the developed models.}
 		}
 		\achievement{
 			\textcolor{black}{Developed automated CI/CD pipeline to integrate with the frontend using Jenkins and Docker }
@@ -72,13 +80,13 @@
 			This model analyzed commodity options and futures market trading
 			patterns to assess the viability of sales and export demand in
 			international markets relevant to the company's raw material
-		procurement and improved the turn around time of the warehouse
-		stock by 20\%.
+			procurement and improved the turn around time of the warehouse
+			stock by 20\%.
 		}
 		\achievement{
 			Fine Tuned \textbf{T5} based model using PEFT to eliminate jargon within
 			the published analyst reports to make available corpus more streamlined for
-		downstream tasks improving the pipeline efficiency by approx 30\%.
+			downstream tasks improving the pipeline efficiency by approx 30\%.
 		}
 	}
 }
@@ -106,6 +114,37 @@
 		% 	}
 	}
 }
+
+% ----- Education -----
+\section{Education}
+\degree{B.S. Data Science and Programming}{IIT Madras}{2021-2024}{
+	\achievement{
+		TA for the course C Programming
+	}
+}
+\degree{BSc Information Technology}{SMU}{2015-2018}{
+}
+
+% ----- Skills -----
+\section{Skills}{
+  % Languages: Python, JavaScript, C \\
+  \role{Languages}{\normalfont Python, JavaScript, C}
+  \role{Frameworks}
+  {\normalfont TensorFlow, PyTorch, Scikit-learn, Pytorch Lightning,
+	  Git, Flask, Django, ONNX, GCP, AWS, Kubernetes, Docker, Dask, PySpark,
+	  NIXTLA, JINA, TF Serving, NVIDIA Triton Inference Server}
+  \role{Domains}{
+	  \normalfont NLP, Non-Stationary Time Series Modeling, Computer Vision,
+	  Computational Geometry, Image Registration, Non-Linear Optimization,
+	  Bayesian Optimization
+  }
+
+ }
+
+% Frameworks: TensorFlow, PyTorch, Scikit-learn, Pytorch Lightning, Git,
+% Flask, Django, ONNX, GCP, AWS, Kubernetes, Docker, Dask, PySpark
+
+
 % ----- Awards -----
 \section{Awards}
 
@@ -125,15 +164,6 @@
 	}
 }
 
-% ----- Education -----
-\section{Education}
-\degree{B.S. Data Science and Programming}{IIT Madras}{2024}{
-	\achievement{
-		TA for the course C Programming
-	}
-}
-\degree{BSc Information Technology}{SMU}{2018}{
-}
 
 % ----- Technical Projects -----
 \section{Technical Projects}
@@ -182,18 +212,5 @@
 		embeddings to further optimize the model for the large scale data.
 	}
 }
-
-% ----- Skills -----
-\section{Skills}{
-  % Languages: Python, JavaScript, C \\
-  \role{Languages}{\normalfont Python, JavaScript, C}
-  \role{Frameworks}
-  {\normalfont TensorFlow, PyTorch, Scikit-learn, Pytorch Lightning,
-  Git, Flask, Django, ONNX, GCP, AWS, Kubernetes, Docker, Dask, PySpark,
-  NIXTLA, JINA, TF Serving, NVIDIA Triton Inference Server}
-
- }
-% Frameworks: TensorFlow, PyTorch, Scikit-learn, Pytorch Lightning, Git,
-% Flask, Django, ONNX, GCP, AWS, Kubernetes, Docker, Dask, PySpark
 
 \end{document}
